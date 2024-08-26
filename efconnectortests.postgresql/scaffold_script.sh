@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold --no-onconfiguring "host=localhost;port=54320;database=efconntest;username=postgres;password=string_password" Npgsql.EntityFrameworkCore.PostgreSQL --context TestContext  --force -o EF/Entities
